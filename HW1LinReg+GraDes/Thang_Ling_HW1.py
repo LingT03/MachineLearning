@@ -10,9 +10,6 @@ Y_data= np.array([129.54611622, 135.54611622, 121.54611622, 99.54611622,
 
 print(x_data)
 
-
-
-
 def gradient_descent(x_data, Y_data, b:float, iterations: int, leazrn_rate: float, b_history: list, w_history: list):
     for i in range(iterations):
         y_pred = w * x_data + b
